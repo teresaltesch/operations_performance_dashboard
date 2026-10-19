@@ -3,9 +3,7 @@
 An interactive business intelligence application engineered in Google Sheets to convert flat transactional tracking records into dynamic, real-time operational insights for stakeholders.
 
 ## 🔗 Project Entry Points
-*   **[🚀 Launch Interactive Live Dashboard (Creates Your Own Copy)](REPLACE_WITH_YOUR_MAKE_A_COPY_URL)**
-*   **[📥 Download Static Workbook File (.xlsx)](./operations_dashboard_workbook.xlsx)**
-
+*   **[🚀 Launch Interactive Live Dashboard (Creates Your Own Copy)](https://docs.google.com/spreadsheets/d/1qcxrojToBEi0x_hVEiHgiEiRtlg7v9jxINNfmUoaDWo/copy?gid=1756242464#gid=1756242464)**
 ---
 
 ## 🎨 Dashboard Preview
@@ -44,11 +42,12 @@ In the final layer of the architecture, I built a point-and-click user interface
 | Sheet Tab / Layer | Technical Component | Architectural Purpose |
 | :--- | :--- | :--- |
 | **`💵 Raw_Data`** | Primary Transaction Ledger | Secure storage of unaltered historical records. |
-| **`⚙️ Calculations`** | `VLOOKUP` & Nested Logic | Relational cross-sheet mapping and string standardizations. |
-| **`⚙️ Calculations`** | Pivot Matrices & `SUMIFS` | High-performance aggregation by timeline and category attributes. |
-| **`⚙️ Calculations`** | `=SPARKLINE()` Formulas | Low-footprint, inline visual matrix generation for macro trends. |
+| **`⚙️ Duplicates, Vlookup, Pivot Tables`** | `VLOOKUP` & Nested Logic | Relational cross-sheet mapping and string standardizations. |
+| **`⚙️ Basic Charts`** | Pivot Matrices & `SUMIFS` | High-performance aggregation by timeline and category attributes. |
+| **`⚙️ Dynamic Charts`** | `=SPARKLINE()` Formulas | Low-footprint, inline visual matrix generation for macro trends. |
+| **`⚙️ SparkLines`** | `=SPARKLINE()` Formulas | Low-footprint, inline visual matrix generation for macro trends. |
 | **`📊 Dashboard`** | KPI Scorecards & Core Charts | Front-end visual interface arranged for high-level scannability. |
-| **`📊 Dashboard`** | Interactive Slicers & Dropdowns | Global point-and-click data filtration layers for stakeholders. |
+| **`📊 Charts & Graphs`** | Interactive Slicers & Dropdowns | Global point-and-click data filtration layers for stakeholders. |
 
 ---
 
