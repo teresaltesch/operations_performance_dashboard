@@ -8,7 +8,6 @@ An interactive business intelligence application engineered in Google Sheets to 
 
 ## 🎨 Dashboard Preview
 ![Dashboard Preview](https://github.com/teresaltesch/operations_performance_dashboard/blob/main/Car_Sales_Dashboard.jpg)
-*(Note: Turn off sheet gridlines via View > Show > Gridlines before taking your screenshot to maintain this software-like interface).*
 
 ---
 
